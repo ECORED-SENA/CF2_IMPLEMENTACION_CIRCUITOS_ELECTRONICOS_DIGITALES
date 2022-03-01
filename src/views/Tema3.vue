@@ -82,12 +82,12 @@
 
     p.mb-5(data-aos="fade") Para efectos de aplicación se utilizarán sólo dos tipos de simulador: los esquemáticos y los de gráficos realistas. A continuación se explica cada uno de ellos. 
 
-    ImagenInfograficaB.color-acento-contenido.tema3-1.pb-5
+    ImagenInfograficaB.color-acento-contenido.tema3-1
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema3-1-infog.png', alt='dos tipos de simulador')
 
-      div.tarjeta.p-3(x="37%" y="56%" tooltip="Simulador esquemático")
+      div.tarjeta.p-3(x="37%" y="62%" tooltip="Simulador esquemático")
         .h3.mb-2 Simulador esquemático
         p De estos encontramos <em>software</em> en línea de tipo gratuito. Un ejemplo es CircuitLab, en el cual se puede iniciar con las compuertas lógicas para implementar un circuito como el de la imagen y comprobar luego en la tabla de verdad los resultados. Para usar este <em>software</em> en línea debe crear una cuenta.
         .row.justify-content-center
@@ -95,7 +95,7 @@
             img(src='@/assets/curso/tema3-1-imginfog1.jpg', alt='Simulador esquemático')
         p También puede probar la equivalencia de circuitos; por ejemplo, se puede aplicar la ley distributiva armando en paralelo los circuitos correspondientes y comprobar que la salida es la misma para todos los valores de la tabla de verdad.
 
-      div.tarjeta.p-3(x="63%" y="56%" tooltip="Simulador gráfico realista")
+      div.tarjeta.p-3(x="63%" y="62%" tooltip="Simulador gráfico realista")
         .h3.mb-2 Simulador gráfico realista
         p Para simular un circuito con interfaz realista se utiliza la herramienta gratuita Tinkercad. Para el manejo de las compuertas lógicas se debe tener claro sus preferencias y diagramas internos, según la hoja de datos; estas son la referencias más comunes:
         .row.justify-content-center
