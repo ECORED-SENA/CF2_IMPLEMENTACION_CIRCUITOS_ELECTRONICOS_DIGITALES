@@ -82,10 +82,27 @@
           .col-md-10.py-3
             p.mb-0 Al adquirir un elemento es importante consultar la hoja de datos proporcionada por ese fabricante, algunos datos son estándares y no varían, más que todo los referidos a tamaño, distribución de pines y tensiones de operación, otros pueden variar como la temperatura, frecuencia de operación y otros.
 
-    p(data-aos="fade") Es importante familiarizarse con las referencias de estos componentes, pues de ellas parte la consulta a las hojas de datos, ya que estas referencias por sí solas brindan información importante. Las compuertas lógicas tienen varios procesos de fabricación y de acuerdo a estos se definen la mayoría de las veces, de aquí se derivan las siguientes familias lógicas, las cuales se podrán observar en la siguiente figura 3.
+    p.mb-4(data-aos="fade") Es importante familiarizarse con las referencias de estos componentes, pues de ellas parte la consulta a las hojas de datos, ya que estas referencias por sí solas brindan información importante. Las compuertas lógicas tienen varios procesos de fabricación y de acuerdo a estos se definen la mayoría de las veces, de aquí se derivan las siguientes familias lógicas, las cuales se podrán observar en la siguiente figura 3.
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10
+        h3 Familias lógicas
+    figure
+      img(src='@/assets/curso/tema1-2-infog.png', alt='Familias lógicas')
+
+    p(data-aos="fade") También, la referencia suministra información relacionada a este tema; la siguiente tabla 1 muestra esta clasificación.
 
 
 
+    .row.justify-content-center.mb-4
+      .col-md-9(data-aos="fade-down")
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1-2-img2.jpg')})`}")
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Al utilizar toda la información que suministran los datasheet, se puede llegar a implementar, por ejemplo, un circuito integrado para una compuerta AND, como el de la imagen, al tratar de armarlo en una protoboard para las pruebas de funcionamiento de sus compuertas. 
+
+    p(data-aos="fade") Actualmente, es posible simular estos circuitos, al mismo tiempo que se hace la diagramación. Existe software en línea para estas tareas.
 
 
   
