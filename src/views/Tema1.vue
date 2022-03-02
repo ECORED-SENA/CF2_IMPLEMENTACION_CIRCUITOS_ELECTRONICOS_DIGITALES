@@ -50,13 +50,14 @@
         .col-md-11
           .row.justify-content-center.align-items-end
             .col-md-2
-              img.mb-4.ChangeSRC01(src='@/assets/curso/tema1-1-tema1-img1.svg', alt='botón 1' data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+              img.ChangeSRC01(src='@/assets/curso/tema1-1-tema1-img1.svg', alt='botón 1' data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+              img.w-25.mx-auto.mb-0.multi-collapse1.collapse.show(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
             .col-md-2
-              img.mb-4.ChangeSRC02(src='@/assets/curso/tema1-1-tema2-img1.svg', alt='botón 2' data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse2')
-
+              img.ChangeSRC02(src='@/assets/curso/tema1-1-tema2-img1.svg', alt='botón 2' data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2' @mouseover="indicadorTarjetaFlip = false")
+              img.w-25.mx-auto.mb-0.multi-collapse2.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
 
             
-      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse1.collapse.show.mt-4(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4          
           p Al ver el símbolo para la compuerta AND, se puede predecir mentalmente, sin necesidad de cálculos, que con aplicar tensión en ambas entradas, se obtendrá tensión en la salida, y que con una de ellas que esté apagada, se tendrá apagada la salida. Esto es así porque la tabla de verdad para la compuerta AND me brinda esa información.
         .row.justify-content-center
@@ -70,7 +71,7 @@
             figure.mb-5
               img(src='@/assets/curso/tema1-1-tema1-tabla1.svg', alt='Tabla de verdad')
 
-      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse2.collapse.mt-4(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4 
           p La compuerta lógica Or corresponde a la conjunción “o” a continuación su símbolo y ecuación.
         .row.justify-content-center
@@ -84,6 +85,7 @@
             figure.mb-5
               img(src='@/assets/curso/tema1-1-tema2-tabla1.svg', alt='Tabla de verdad')  
       
+
 
 
     p(data-aos="fade") La combinación de estas compuertas fue lo que dio origen a los circuitos digitales y un análisis lógico permite implementar cualquier circuito, desde el más simple, hasta el más complejo, como un sistema de cómputo, todos basados en la misma lógica de dos estados.
