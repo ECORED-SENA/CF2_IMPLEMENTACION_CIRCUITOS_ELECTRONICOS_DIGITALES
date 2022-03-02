@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163" height="154" viewBox="0 0 163 154">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#47a0e6"/>
+      <stop offset="1" stop-color="#0f2771"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_66013" data-name="Grupo 66013" transform="translate(-180 -1697)">
+    <rect id="Rectángulo_9027" data-name="Rectángulo 9027" width="163" height="154" rx="18" transform="translate(180 1697)" fill="url(#linear-gradient)"/>
+    <path id="Unión_12" data-name="Unión 12" d="M28.817,65V52H0V48.533H28.817v-31.2H0V13.866H28.817V0H64.308A30.875,30.875,0,0,1,95.183,30.875c0,.108,0,.217,0,.325H124v3.466H94.975A34.131,34.131,0,0,1,61.058,65Z" transform="translate(203 1759)" fill="#fff"/>
+    <path id="Trazado_110591" data-name="Trazado 110591" d="M15.2-5.953H5.672L3.531,0H.438L9.125-22.75H11.75L20.453,0H17.375ZM6.578-8.406h7.734L10.438-19.047ZM41,0H37.984L26.531-17.531V0H23.516V-22.75h3.016L38.016-5.141V-22.75H41Zm5.328,0V-22.75H52.75A10.338,10.338,0,0,1,58-21.437,8.877,8.877,0,0,1,61.523-17.7a12.155,12.155,0,0,1,1.258,5.563v1.453a12.2,12.2,0,0,1-1.242,5.641,8.738,8.738,0,0,1-3.547,3.719A11,11,0,0,1,52.625,0Zm3-20.3V-2.453h3.156a6.867,6.867,0,0,0,5.4-2.158,8.917,8.917,0,0,0,1.93-6.146v-1.329a9.058,9.058,0,0,0-1.82-6.029A6.478,6.478,0,0,0,52.828-20.3Z" transform="translate(231 1738)" fill="#fff"/>
+  </g>
+</svg>
