@@ -84,10 +84,90 @@
 
     p(data-aos="fade") Las siguientes expresiones más que leyes pasan a ser reglas:
 
+    .row.justify-content-center
+      .col-md-10(data-aos="fade-down")
+        ImagenInfografica.color-acento-contenido.tema2-2
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema2-2-infog.svg', alt='reglas')
+
+          .tarjeta.bg-gris5.p-3(x="25.7%" y="11%")
+            p Como una de las entradas está forzada a ser siempre 0, el valor que tome la variable se verá reflejado en la salida. Esto también se deduce analizando la tabla de verdad de la compuerta Or.
+            img(src='@/assets/curso/tema2-2-infog-1.svg', alt='A + 0 = A' style="width: 190px; margin: 0 auto;")
+
+          .tarjeta.bg-gris5.p-3(x="25.7%" y="26%")
+            p Como una de las entradas está forzada a ser siempre 1, la salida siempre será 1 . Esto también se deduce analizando la tabla de verdad de la compuerta Or.
+            img.mb-4(src='@/assets/curso/tema2-2-infog-2.svg', alt='A + 1 = 1' style="width: 190px; margin: 0 auto;")  
+            p Se puede hacer el mismo procedimiento para la compuerta AND y obtendremos los resultados de las reglas 3 y 4.
+            .row.justify-content-around
+              .col-md-4
+                p 3.   A ・ 0 = 0
+              .col-md-4
+                p 4.   A ・ 1 = A
+
+          .tarjeta.bg-gris5.p-3(x="25.7%" y="63%")
+            p En este caso se está aplicando la misma variable a ambas entradas, por tabla de verdad se deduce que el valor que tome la variable A será el que se refleje en Y.
+            img.mb-4(src='@/assets/curso/tema2-2-infog-4.svg', alt='A + A = A' style="width: 190px; margin: 0 auto;")  
+            p También se puede hacer el mismo análisis para la compuerta AND y obtener la regla 7.
+            .row.justify-content-around
+              .col-md-5
+                p 7.   A ・ A = A
+
+          .tarjeta.bg-gris5.p-3(x="25.7%" y="77%")
+            p La lógica nos dice que al aplicar una sola variable a ambas entradas, pero una de ellas se niega o complementa antes de aplicarla, quiere esto decir que una de ellas siempre será 1 y para la compuerta Or, cualquiera que esté en 1, resulta un 1 en la salida.
+            img.mb-4(src='@/assets/curso/tema2-2-infog-5.svg', alt='A + Ā = 1' style="width: 190px; margin: 0 auto;")  
+            p Se puede aplicar el mismo procedimiento para probar la regla número 8.
+            .row.justify-content-around
+              .col-md-4
+                p 8.   A ・ Ā = 0     
+
+          .tarjeta.bg-gris5.p-3(x="62%" y="37.7%")
+            p La regla número 9 dice que si se niega dos veces una misma variable, se obtiene el valor inicial.
+            img.mb-4(src='@/assets/curso/tema2-2-infog-6.svg', alt='Ā = A ' style="width: 260px; margin: 0 auto;") 
+
+          .tarjeta.bg-gris5.p-3(x="62%" y="51.7%")
+            p La regla número 10 se puede probar implementando el álgebra de boole:
+            ul.lista-ul.px-md-4.px-2
+              li.mb-0
+                i.lista-ul__vineta
+                | A + AB = A (aplicar ley distributiva) A(1 + B) 
+              li.mb-0
+                i.lista-ul__vineta
+                | Aplicar la regla 2 a la expresión dentro del paréntesis 1 + B = 1
+              li.mb-0
+                i.lista-ul__vineta
+                | Nos queda A*1 que según la regla 4 es igual a A
+            p El siguiente es el circuito equivalente:    
+            img.mb-4(src='@/assets/curso/tema2-2-infog-7.svg', alt='Ā = A ' style="width: 260px; margin: 0 auto;")   
+
+          .tarjeta.bg-gris5.p-3(x="62%" y="65.7%")
+            p.mb-0 También se recurre al álgebra de boole para probar la regla 11. Se aplica la regla 10 al término “A”   (A = A + AB) y se reemplaza en la ecuación original: 
+            .row.justify-content-around
+              .col-md-4
+                img.mb-3(src='@/assets/curso/tema2-2-infog-8-1.svg', style="width: 260px; margin: 0 auto;")   
+            p.mb-0 Se aplica la Regla 7:  <b>A = AA.  </b>  
+            p.mb-0 Quedando:  <b>AA + AB + ĀB </b>  
+            p.mb-0 Luego se puede agregar al término: <b>ĀA</b>
+            p.mb-0 Según la regla 8 es igual a 0 y no altera la ecuación <b>ĀA + AA + AB + ĀB</b> 
+            .row.align-items-center
+              .col-md-8
+                p.mb-0 Se aplica, entonces, la ley distributiva:
+              .col-md-4
+                img(src='@/assets/curso/tema2-2-infog-8-2.svg', style="width: 300px; margin: 0 auto;") 
+            .row
+              .col-md-6
+                p.mb-0 Se aplica la regla 6: 
+              .col-md-3
+                img(src='@/assets/curso/tema2-2-infog-8-3.svg', style="width: 55px; margin: 0 auto;") 
+            p.mb-3 Finalmente, se aplica la regla 4: <b>A+ B</b>
+            p El siguiente es el circuito equivalente
+            img.mb-4(src='@/assets/curso/tema2-2-infog-8.svg', alt='A + ĀB = A + B' style="width: 260px; margin: 0 auto;")
+
+          .tarjeta.bg-gris5.p-3(x="62%" y="80%")
+            p También se recurre al álgebra de boole para probar la regla 11. Se aplica la regla 10 al término “A”   (A = A + AB) y se reemplaza en la ecuación original: 
+            img.mb-4(src='@/assets/curso/tema2-2-infog-9.svg', alt='(A+B) (A+C) = A + BC' style="width: 260px; margin: 0 auto;")
+            p Queda como opción de ejercitación construir la tabla de verdad y aplicar el álgebra de boole para su demostración matemática.
     
-
-
-
     Separador
 
 
