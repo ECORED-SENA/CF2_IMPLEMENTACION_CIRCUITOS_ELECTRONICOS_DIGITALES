@@ -49,43 +49,114 @@
       .row.justify-content-center
         .col-md-11
           .row.justify-content-center.align-items-end
-            .col-md-2
-              img.ChangeSRC01(src='@/assets/curso/tema1-1-tema1-img1.svg', alt='botón 1' data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+            .col-md
+              img.mb-4.ChangeSRC01(src='@/assets/curso/tema1-1-tema1-img1.svg', alt='botón 1' data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
               img.w-25.mx-auto.mb-0.multi-collapse1.collapse.show(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md-2
-              img.ChangeSRC02(src='@/assets/curso/tema1-1-tema2-img1.svg', alt='botón 2' data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2' @mouseover="indicadorTarjetaFlip = false")
+            .col-md.absoluta
+              img.mb-4.ChangeSRC02(src='@/assets/curso/tema1-1-tema2-img1.svg', alt='botón 2' data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')(@mouseover="mostrarIndicador = false")
+              .indicador--click(v-if="mostrarIndicador")
               img.w-25.mx-auto.mb-0.multi-collapse2.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-
+            .col-md
+              img.mb-4.ChangeSRC03(src='@/assets/curso/tema1-1-tema3-img1.svg', alt='botón 3' data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='false' aria-controls='.multi-collapse2')
+              img.w-25.mx-auto.mb-0.multi-collapse3.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
+            .col-md
+              img.mb-4.ChangeSRC04(src='@/assets/curso/tema1-1-tema4-img1.svg', alt='botón 4' data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='false' aria-controls='.multi-collapse2')
+              img.w-25.mx-auto.mb-0.multi-collapse4.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
+            .col-md
+              img.mb-4.ChangeSRC05(src='@/assets/curso/tema1-1-tema5-img1.svg', alt='botón 5' data-bs-toggle='collapse' data-bs-target='.multi-collapse5' aria-expanded='false' aria-controls='.multi-collapse2')
+              img.w-25.mx-auto.mb-0.multi-collapse5.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
+            .col-md
+              img.mb-4.ChangeSRC06(src='@/assets/curso/tema1-1-tema6-img1.svg', alt='botón 6' data-bs-toggle='collapse' data-bs-target='.multi-collapse6' aria-expanded='false' aria-controls='.multi-collapse2')
+              img.w-25.mx-auto.mb-0.multi-collapse6.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
+            .col-md
+              img.mb-4.ChangeSRC07(src='@/assets/curso/tema1-1-tema7-img1.svg', alt='botón 7' data-bs-toggle='collapse' data-bs-target='.multi-collapse7' aria-expanded='false' aria-controls='.multi-collapse2')
+              img.w-25.mx-auto.mb-0.multi-collapse7.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')  
+        
             
-      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse1.collapse.show.mt-4(data-bs-parent='#MapaGroup01')
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4          
           p Al ver el símbolo para la compuerta AND, se puede predecir mentalmente, sin necesidad de cálculos, que con aplicar tensión en ambas entradas, se obtendrá tensión en la salida, y que con una de ellas que esté apagada, se tendrá apagada la salida. Esto es así porque la tabla de verdad para la compuerta AND me brinda esa información.
-        .row.justify-content-center
+        .row.justify-content-around
           .col-md-5
             h4 Símbolo para la compuerta lógica AND
             img.px-2.mb-4(src='@/assets/curso/tema1-1-tema1-form1.svg', alt='Símbolo para la compuerta lógica AND')
             p Su <b>ecuación matemática</b> para implementar en el álgebra de boole sería:
             p.text-center 𝑌 = 𝐴 ⋅ 𝐵
             p.mb-0 Es decir que la compuerta lógica AND, corresponde a la multiplicación en este caso se le conoce como multiplicación lógica.
-          .col-md-5
+          .col-md-4
             figure.mb-5
               img(src='@/assets/curso/tema1-1-tema1-tabla1.svg', alt='Tabla de verdad')
 
-      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse2.collapse.mt-4(data-bs-parent='#MapaGroup01')
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4 
           p La compuerta lógica Or corresponde a la conjunción “o” a continuación su símbolo y ecuación.
-        .row.justify-content-center
+        .row.justify-content-around
           .col-md-5
             h4 Símbolo para la compuerta lógica OR
             img.px-2.mb-4(src='@/assets/curso/tema1-1-tema2-form1.svg', alt='Símbolo para la compuerta lógica OR')
             p Su <b>ecuación matemática</b> ppara implementar en el álgebra de boole sería:
             p.text-center 𝑌 = 𝐴 + 𝐵
             p.mb-0 Se evidencia que para el análisis matemático tiene el comportamiento de la suma, por eso es también conocida como la suma lógica. Sin embargo, se observa que para el 1+1, que sería 2, acá el número 2 no existe por tratarse de un sistema binario donde solo se usan los símbolos 0 y 1.
-          .col-md-5
+          .col-md-4
             figure.mb-5
               img(src='@/assets/curso/tema1-1-tema2-tabla1.svg', alt='Tabla de verdad')  
       
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
+        .col-md-10.mb-4 
+          p Existe una compuerta especial de una sola entrada. Generalmente se usa combinada con otras compuertas lógicas y se trata de la compuerta negadora (Not o No), que pone en su salida un valor contrario al de la entrada, es decir “Niega” lo que esté en la entrada. Esta negación se representa en la ecuación matemática  con una barra encima de la letra. La siguiente figura ilustra esta compuerta en su simbología y ecuación. A esta compuerta también se le conoce como “Complemento”.
+        .row.justify-content-around
+          .col-md-5
+            h4 Símbolo y ecuación para la compuerta lógica NOT
+            img.px-2.mb-4(src='@/assets/curso/tema1-1-tema3-form1.svg', alt='Símbolo y ecuación para la compuerta lógica NOT')
+          .col-md-4
+            figure.mb-5
+              img(src='@/assets/curso/tema1-1-tema3-tabla1.svg', alt='Tabla de verdad')  
 
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse4.collapse(data-bs-parent='#MapaGroup01')
+        .col-md-10.mb-4 
+          p Al combinar esta compuerta con las anteriores, se obtienen dos compuertas adicionales, que posteriormente se convirtieron en las de mayor aplicación, tanto así, que se les conoce como compuertas universales. Con una sola de ellas se pueden obtener cualquier circuito lógico, facilitando así la implementación en circuitos complejos.
+          p La primera de ellas es la compuerta NAND. Se obtiene al negar la compuerta AND, es decir conectar una compuerta negadora a su salida. La tabla de verdad se obtiene negando es decir invirtiendo o complementando los valores de la salida Y.
+        .row.justify-content-around
+          .col-md-6
+            h4 Símbolo y ecuación para la compuerta lógica NAND
+            img.px-2.mb-4(src='@/assets/curso/tema1-1-tema4-form1.svg', alt='Símbolo y ecuación para la compuerta lógica NAND')
+          .col-md-4
+            figure.mb-5
+              img(src='@/assets/curso/tema1-1-tema4-tabla1.svg', alt='Tabla de verdad')   
+
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse5.collapse(data-bs-parent='#MapaGroup01')
+        .col-md-10.mb-4 
+          p Al combinar esta compuerta con las anteriores, se obtienen dos compuertas adicionales, que posteriormente se convirtieron en las de mayor aplicación, tanto así, que se les conoce como compuertas universales. Con una sola de ellas se pueden obtener cualquier circuito lógico, facilitando así la implementación en circuitos complejos.
+          p La segunda de ellas es NOR. Análogamente se hace el mismo procedimiento para obtener este tipo de compuerta. La tabla de verdad se obtiene negando es decir invirtiendo o complementando los valores de la salida Y.
+        .row.justify-content-around
+          .col-md-6
+            h4 Símbolo y ecuación para la compuerta lógica NOR
+            img.px-2.mb-4(src='@/assets/curso/tema1-1-tema5-form1.svg', alt='Símbolo y ecuación para la compuerta lógica NOR')
+          .col-md-4
+            figure.mb-5
+              img(src='@/assets/curso/tema1-1-tema5-tabla1.svg', alt='Tabla de verdad')    
+
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse6.collapse(data-bs-parent='#MapaGroup01')
+        .col-md-10.mb-4 
+          p Existen dos compuertas de aplicación especial. Una de ellas es la OR Exclusiva, la cual se comporta como una OR pero excluye los dos valores que son iguales. A continuación su diagrama y simbología:
+        .row.justify-content-around
+          .col-md-5
+            h4 Símbolo y ecuación para la compuerta lógica XOR
+            img.px-2.mb-4(src='@/assets/curso/tema1-1-tema6-form1.svg', alt='Símbolo y ecuación para la compuerta lógica XOR')
+          .col-md-4
+            figure.mb-5
+              img(src='@/assets/curso/tema1-1-tema6-tabla1.svg', alt='Tabla de verdad') 
+
+      .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse7.collapse(data-bs-parent='#MapaGroup01')
+        .col-md-10.mb-4 
+          p Existen dos compuertas de aplicación especial. Una de ellas es XOR y esta es también conocida como OR Inclusiva, la cual incluye o ponen en 1 la salida cuando los valores en sus entradas son iguales; también es conocida como el comparador digital porque pone un 1 lógico en la salida cuando las entradas son iguales. A continuación su diagrama y simbología:
+        .row.justify-content-around
+          .col-md-5
+            h4 Símbolo y ecuación para la compuerta lógica XNOR         
+            img.px-2.mb-4(src='@/assets/curso/tema1-1-tema7-form1.svg', alt='Símbolo y ecuación para la compuerta lógica XNOR')
+          .col-md-4
+            figure.mb-5
+              img(src='@/assets/curso/tema1-1-tema7-tabla1.svg', alt='Tabla de verdad')                                   
 
 
     p(data-aos="fade") La combinación de estas compuertas fue lo que dio origen a los circuitos digitales y un análisis lógico permite implementar cualquier circuito, desde el más simple, hasta el más complejo, como un sistema de cómputo, todos basados en la misma lógica de dos estados.
@@ -253,6 +324,7 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
