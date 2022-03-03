@@ -18,7 +18,7 @@
               p.fw-bold.mb-0 Arrastrar y soltar.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/act1/story.html')" target="_blank")
-                span Realizar
+                span Realizar 
                 i.fas.fa-puzzle-piece
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
