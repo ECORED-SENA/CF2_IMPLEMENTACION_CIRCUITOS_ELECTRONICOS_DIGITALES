@@ -257,7 +257,7 @@
 
     .row.mb-5
       .col-md-5.absoluta.mb-4
-        img(src='@/assets/curso/tema1-3-img.svg', alt='Imagen decorativa')
+        img(src='@/assets/curso/tema1-3-img.png', alt='Imagen decorativa')
         img.img-absoluta.imagen_girando(src='@/assets/curso/tema3-1-ico.svg', alt='Imagen decorativa')
       .col-md-7.hover-tema1-3
         .row.justify-content-center.tarjeta.bg-botones3.mb-3
