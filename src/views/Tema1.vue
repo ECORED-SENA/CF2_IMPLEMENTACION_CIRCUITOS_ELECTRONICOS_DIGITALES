@@ -45,31 +45,38 @@
 
     p(data-aos="fade") Los símbolos electrónicos aplicados a la electrónica digital, por sí solos, ya brindan información de lo que se espera en un circuito electrónico; tal como se explica en cada una de las compuertas y que se puede visualizar en el siguiente recurso: 
 
-    #MapaGroup01.mb-5(data-aos="flip-left")
+    #MapaGroup01.mb-5(data-aos="fade-down")
       .row.justify-content-center
         .col-md-11
           .row.justify-content-center.align-items-end
             .col-md
-              img.mb-4.ChangeSRC01(src='@/assets/curso/tema1-1-tema1-img1.svg', alt='botón 1' data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+                img.ChangeSRC01(src='@/assets/curso/tema1-1-tema1-img1.svg', alt='botón 1')
               img.w-25.mx-auto.mb-0.multi-collapse1.collapse.show(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
             .col-md.absoluta
-              img.mb-4.ChangeSRC02(src='@/assets/curso/tema1-1-tema2-img1.svg', alt='botón 2' data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')(@mouseover="mostrarIndicador = false")
+                .indicador--click(v-if="mostrarIndicador")
+                img.ChangeSRC02(src='@/assets/curso/tema1-1-tema2-img1.svg', alt='botón 2' )
               img.w-25.mx-auto.mb-0.multi-collapse2.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
             .col-md
-              img.mb-4.ChangeSRC03(src='@/assets/curso/tema1-1-tema3-img1.svg', alt='botón 3' data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='false' aria-controls='.multi-collapse2')
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='false' aria-controls='.multi-collapse2')
+                img.ChangeSRC03(src='@/assets/curso/tema1-1-tema3-img1.svg', alt='botón 3' )
               img.w-25.mx-auto.mb-0.multi-collapse3.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
             .col-md
-              img.mb-4.ChangeSRC04(src='@/assets/curso/tema1-1-tema4-img1.svg', alt='botón 4' data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='false' aria-controls='.multi-collapse2')
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='false' aria-controls='.multi-collapse2')
+                img.ChangeSRC04(src='@/assets/curso/tema1-1-tema4-img1.svg', alt='botón 4' )
               img.w-25.mx-auto.mb-0.multi-collapse4.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
             .col-md
-              img.mb-4.ChangeSRC05(src='@/assets/curso/tema1-1-tema5-img1.svg', alt='botón 5' data-bs-toggle='collapse' data-bs-target='.multi-collapse5' aria-expanded='false' aria-controls='.multi-collapse2')
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse5' aria-expanded='false' aria-controls='.multi-collapse2')  
+                img.ChangeSRC05(src='@/assets/curso/tema1-1-tema5-img1.svg', alt='botón 5' )
               img.w-25.mx-auto.mb-0.multi-collapse5.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
             .col-md
-              img.mb-4.ChangeSRC06(src='@/assets/curso/tema1-1-tema6-img1.svg', alt='botón 6' data-bs-toggle='collapse' data-bs-target='.multi-collapse6' aria-expanded='false' aria-controls='.multi-collapse2')
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse6' aria-expanded='false' aria-controls='.multi-collapse2')  
+                img.ChangeSRC06(src='@/assets/curso/tema1-1-tema6-img1.svg', alt='botón 6' )
               img.w-25.mx-auto.mb-0.multi-collapse6.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
             .col-md
-              img.mb-4.ChangeSRC07(src='@/assets/curso/tema1-1-tema7-img1.svg', alt='botón 7' data-bs-toggle='collapse' data-bs-target='.multi-collapse7' aria-expanded='false' aria-controls='.multi-collapse2')
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse7' aria-expanded='false' aria-controls='.multi-collapse2') 
+                img.ChangeSRC07(src='@/assets/curso/tema1-1-tema7-img1.svg', alt='botón 7' )
               img.w-25.mx-auto.mb-0.multi-collapse7.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')  
         
             
@@ -204,10 +211,48 @@
     p.mb-5(data-aos="fade") También, la referencia suministra información relacionada a este tema; la siguiente tabla 1 muestra esta clasificación.
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-md-8
-        figure
-          img(src='@/assets/curso/tema1-2-tabla.svg', alt='Distribución de las compuertas lógicas')
-
+      .col-md-9
+        .tabla-a.color-acento-contenido.mb-5 
+          table
+            thead
+              tr.bg-contenido1.text-white
+                th(colspan="3" style="font-size: 18px;") Distribución de las compuertas lógicas
+              tr
+                th Familia de circuitos lógicos integrados con transistores
+                th Tecnología
+                th Serie     
+            tbody
+              tr
+                td(rowspan="6") <b>Bipolares</b>
+                td(rowspan="5") TTL
+                td TTL estándar    
+              tr
+                td TTL de baja potencia 
+              tr
+                td TTL shoottky
+              tr
+                td TTL shootttky de baja potencia 
+              tr
+                td TTL shoottky avanzado    
+              tr
+                td ECL
+                td
+              tr
+                td(rowspan="5") <b>MOSFET</b>
+                td(rowspan="3") CMOS
+                td CMOS estándar
+              tr
+                td CMOS HC
+              tr
+                td CMOS HCT
+              tr
+                td NMOS
+                td
+              tr
+                td PMOS
+                td  
+              tr
+                td(colspan="3" style="text-align: center") BiCMOS Combina transistores bipolares con transistores MOSFET
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10.tarjeta.bg-secundario3
@@ -258,7 +303,7 @@
     .row.mb-5
       .col-md-5.absoluta.mb-4
         img(src='@/assets/curso/tema1-3-img.png', alt='Imagen decorativa')
-        img.img-absoluta.imagen_girando(src='@/assets/curso/tema3-1-ico.svg', alt='Imagen decorativa')
+        img.img-absoluta.imagen_agrandando(src='@/assets/curso/tema3-1-ico.svg', alt='Imagen decorativa')
       .col-md-7.hover-tema1-3
         .row.justify-content-center.tarjeta.bg-botones3.mb-3
           .col-md-10.py-3.text-white
