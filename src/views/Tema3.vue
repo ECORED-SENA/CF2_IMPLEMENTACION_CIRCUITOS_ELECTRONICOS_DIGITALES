@@ -34,7 +34,7 @@
               figure
                 img(src='@/assets/curso/tema3-paso3.jpg', alt='Aplicaciones')
             .col-md-9
-              p Existen muchas aplicaciones gratuitas y de funcionamiento online, que permiten la simulación efectiva de la mayoría de los circuitos digitales, algunas de ellas parten del diagrama esquemático y muestran sobre este los estados lógicos, es decir, en los mismos diagramas de las compuertas lógicas, se muestran los resultados.
+              p Existen muchas aplicaciones gratuitas y de funcionamiento <em>online</em>, que permiten la simulación efectiva de la mayoría de los circuitos digitales, algunas de ellas parten del diagrama esquemático y muestran sobre este los estados lógicos, es decir, en los mismos diagramas de las compuertas lógicas, se muestran los resultados.
           .row.align-items-center
             .col-md-9.mb-4.mb-md-0
               p Algunos programas con gráficos 3D permiten visualizar el mismo circuito integrado físico, montado sobre la protoboard, tratando de representarlo, como se vería en la realidad. Estas versiones las hay incluso de uso libre y en línea, Tinkercad es una de ellas.
@@ -141,7 +141,7 @@
       .col-md-10
         .row.borde-botones.justify-content-center
           img.py-3(src='@/assets/curso/tema3-2-img.jpg', alt='Tinkercad en modo List') 
-          h5.text-white.bg-botones1.py-2.mb-0 Nota. Tinkercad en modo List. Captura de pantalla.  
+          h5.text-white.bg-botones1.py-2.mb-0 <em>Nota. Tinkercad en modo List. Captura de pantalla.</em>  
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10.tarjeta.bg-primario1

@@ -136,7 +136,7 @@
     .titulo-segundo.color-acento-contenido
       h2 4.4. <em>Software</em> de aplicación
 
-    p Generalmente el <em>software</em> utilizado para simular el circuito es el mismo usado para su implementación final; en el caso de no hacerlo puede generar el archivo para implementarlo en aplicaciones que sí lo hagan. En el caso de las tarjetas integradas solo es necesario transferir el código a la tarjeta, normalmente esto lo hace la misma aplicación de desarrollo y solo es necesario conectarla al PC usando un puerto USB. 
+    p(data-aos="fade") Generalmente el <em>software</em> utilizado para simular el circuito es el mismo usado para su implementación final; en el caso de no hacerlo puede generar el archivo para implementarlo en aplicaciones que sí lo hagan. En el caso de las tarjetas integradas solo es necesario transferir el código a la tarjeta, normalmente esto lo hace la misma aplicación de desarrollo y solo es necesario conectarla al PC usando un puerto USB. 
 
     .row.justify-content-center.mb-0
       .col-md-10
@@ -158,6 +158,8 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 El <em>software</em> utilizado para programar este tipo de plataformas, es sencillo y de fácil implementación algunos de ellos son de tipo gráfico como microbit (https://microbit.org/) pensado para robótica en niños. 
     
+    p.mb-5(data-aos="fade") Actualmente existen multitud de plataformas para desarrollo de circuitos, incluso implementando funcionalidades avanzadas y programación y con tutoriales de aprendizajes, integrados a ellas.
+
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
         .tarjeta.bg-degrade-morado.p-3

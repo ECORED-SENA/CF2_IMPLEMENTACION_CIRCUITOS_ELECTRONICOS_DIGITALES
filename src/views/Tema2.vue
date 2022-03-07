@@ -178,9 +178,13 @@
     p(data-aos="fade") Los teoremas aplicados al cálculo digital, y que se complementan muy bien con las leyes y reglas del álgebra de boole, fueron propuestos por Augustus De Morgan (Madurai, India; 27 de junio de 1806 - Londres, 18 de marzo de 1871)  y son de amplia utilización en la simplificación de ecuaciones booleanas y por lo tanto de compuertas aplicadas a un circuito.
 
     p.mb-4(data-aos="fade") Estos teoremas proponen lo siguiente, ver figura 6:
+    
+    
 
     .row.justify-content-center.mb-4
       .col-md-10(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 <b>Figura 6.</b> Representación del teorema
         .row
           .col-md-6.bg-primario1.p-4
             p.text-white.mb-0 Se puede cambiar una expresión que está con compuertas AND a otra con la misma función pero que usan solo compuertas OR.
@@ -209,8 +213,9 @@
             .row.justify-content-around.bg-slyder.tarjeta
               .col-md-5.mb-4.mb-md-0.py-4
                 p Dada la siguiente ecuación, aplicar los teoremas de DeMorgan para simplificar el circuito:
-                img.mb-4(src='@/assets/curso/tema2-3-slider2-1.svg', alt='Imagen decorativa' style="width: 220px; margin: 0 auto;") 
-                p.mb-0 El circuito según la ecuación sería este con cuatro compuertas y dos circuitos integrados:
+                img.mb-4(src='@/assets/curso/tema2-3-slider2-1.svg', alt='Formula' style="width: 100px; margin: 0 auto;") 
+                p.mb-3 El circuito según la ecuación sería este con cuatro compuertas y dos circuitos integrados:
+                img.mb-0(src='@/assets/curso/tema2-3-slider2-3.svg', alt='Formula' style="width: 210px; margin: 0 auto;")
               .col-md-5
                 img(src='@/assets/curso/tema2-3-slider2-2.svg', alt='Imagen decorativa')    
           .tarjeta.bg-botones3.p-4
@@ -230,12 +235,12 @@
                     img.py-3(src='@/assets/curso/tema2-3-slider4-2.svg', alt='Imagen decorativa')   
                 .row.align-items-center.mb-3
                   .col-md-8.text-white
-                    p.mb-0 Como esta expresión estaba toda negada, se le debe colocar la negación a la obtenida:
+                    p.mb-0 Si aplicamos la regla 9 entonces la ecuación final nos queda:
                   .col-md-4
                     img.py-3(src='@/assets/curso/tema2-3-slider4-3.svg', alt='Imagen decorativa')     
                 .row.align-items-center.mb-3
                   .col-md-8.text-white
-                    p.mb-0 Como esta expresión estaba toda negada, se le debe colocar la negación a la obtenida:
+                    p.mb-0 Lo que nos deja con la implementación de una sola compuerta AND de tres entradas.
                   .col-md-4
                     img.py-3(src='@/assets/curso/tema2-3-slider4-4.svg', alt='Imagen decorativa')    
           .row.justify-content-end.align-items-center.bg-botones3.tarjeta

@@ -12,7 +12,7 @@
       .col-md-12.tarjeta.bg-degrade-azul
         .row.justify-content-center
           .col-md-10.py-3.text-white
-            p.mb-0 <b style="font-size: 18px">Los diagramas esquemáticos</b> constituyen un paso importante en la implementación de un circuito, pues en ellos se detallan de forma simbólica, los componentes a utilizar y la interconexión existente entre los mismos. Estos diagramas pueden ser elaborados a mano; de hecho, casi siempre el primer bosquejo de un circuito se elabora con esta técnica. Actualmente, existen aplicaciones de <em>software</em> avanzado que facilitan esta tarea, incluso se puede hacer online de forma gratuita.
+            p.mb-0 <b style="font-size: 18px">Los diagramas esquemáticos</b> constituyen un paso importante en la implementación de un circuito, pues en ellos se detallan de forma simbólica, los componentes a utilizar y la interconexión existente entre los mismos. Estos diagramas pueden ser elaborados a mano; de hecho, casi siempre el primer bosquejo de un circuito se elabora con esta técnica. Actualmente, existen aplicaciones de <em>software</em> avanzado que facilitan esta tarea, incluso se puede hacer <em>online</em> de forma gratuita.
 
     .row.justify-content-center
       .col-md-10
@@ -184,7 +184,7 @@
     .row.justify-content-center.mb-0
       .col-md-10
         .row.borde-botones
-          h4.text-center.text-white.bg-botones1.py-1.mb-4 Datasheet para la compuerta lógica NAND 7400
+          h4.text-center.text-white.bg-botones1.py-1.mb-4 <em>Datasheet</em> para la compuerta lógica NAND 7400
           .row.justify-content-center
             .col-md-11.tarjeta.py-3.px-4.mb-2
               img(src='@/assets/curso/tema1-2-img.svg', alt='Imagen decorativa')                   
@@ -192,7 +192,7 @@
       .col-md-10.bg-gris.borde-botones-sin-top
         .row.justify-content-center
           .col-md-10.py-3
-            p.mb-0 Estas hojas de datos son necesarias para armar, bien sea el prototipo o el circuito final. El <em>software</em> de generación de la PCB también necesita ser alimentado con la información proporcionada en  estas hojas. Cada fabricante suministra su datasheet para sus productos, por eso es normal encontrar varias hojas para una misma referencia. 
+            p.mb-0 Estas hojas de datos son necesarias para armar, bien sea el prototipo o el circuito final. El <em>software</em> de generación de la PCB también necesita ser alimentado con la información proporcionada en  estas hojas. Cada fabricante suministra su <em>datasheet</em> para sus productos, por eso es normal encontrar varias hojas para una misma referencia. 
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10.bg-celeste
@@ -285,14 +285,14 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1-2-img2.jpg')})`}")
           .bloque-texto-g__texto.p-4
-            p.mb-0 Al utilizar toda la información que suministran los datasheet, se puede llegar a implementar, por ejemplo, un circuito integrado para una compuerta AND, como el de la imagen, al tratar de armarlo en una protoboard para las pruebas de funcionamiento de sus compuertas. 
+            p.mb-0 Al utilizar toda la información que suministran los <em>datasheet</em>, se puede llegar a implementar, por ejemplo, un circuito integrado para una compuerta AND, como el de la imagen, al tratar de armarlo en una protoboard para las pruebas de funcionamiento de sus compuertas. 
 
     p(data-aos="fade") Actualmente, es posible simular estos circuitos, al mismo tiempo que se hace la diagramación. Existe <em>software</em> en línea para estas tareas.
 
     Separador
 
 
-    #t_2_3
+    #t_1_3
     .titulo-segundo.color-acento-contenido
       h2 1.3. <em>Software</em> para diagramación
 
@@ -335,7 +335,7 @@
                 | Crocclip            
         .row.justify-content-center.tarjeta.bg-gris6
           .col-md-10.py-3.text-white
-            h4 También existen softwares online de uso libre:
+            h4 También existen softwares <em>online</em> de uso libre:
             ul.lista-ul.px-2.mb-0
               li.mb-0
                 i.lista-ul__vineta
