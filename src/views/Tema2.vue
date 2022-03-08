@@ -299,7 +299,7 @@
                   h4.mb-2 Implementación de sistemas digitales
                   p.text-small.mb-0 En el siguiente video se expone el proceso completo de aplicación, iniciando desde el álgebra de boole hasta llegar al mapa de Karnaugh.
                 .col-sm-auto
-                  a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=eBVvD85Ml2c&list=PLkjnQ3NFTPnY1eNyLDGi547gkVui1vyn2" target="_blank")
+                  a.boton.color-acento-botones.text-white(href="#" target="_blank")
                     span Video
                     i.fas.fa-play-circle
 
