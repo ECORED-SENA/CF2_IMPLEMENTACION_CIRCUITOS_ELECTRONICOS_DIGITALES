@@ -49,32 +49,32 @@
       .row.justify-content-center
         .col-md-11
           .row.justify-content-center.align-items-end
-            .col-md
+            .col-md.col-3
               .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
                 img.ChangeSRC01(src='@/assets/curso/tema1-1-tema1-img1.svg', alt='botón 1')
               img.w-25.mx-auto.mb-0.multi-collapse1.collapse.show(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md.absoluta
+            .col-md.col-3.absoluta
               .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')(@mouseover="mostrarIndicador = false")
                 .indicador--click(v-if="mostrarIndicador")
                 img.ChangeSRC02(src='@/assets/curso/tema1-1-tema2-img1.svg', alt='botón 2' )
               img.w-25.mx-auto.mb-0.multi-collapse2.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md
+            .col-md.col-3
               .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='false' aria-controls='.multi-collapse2')
                 img.ChangeSRC03(src='@/assets/curso/tema1-1-tema3-img1.svg', alt='botón 3' )
               img.w-25.mx-auto.mb-0.multi-collapse3.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md
+            .col-md.col-3
               .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='false' aria-controls='.multi-collapse2')
                 img.ChangeSRC04(src='@/assets/curso/tema1-1-tema4-img1.svg', alt='botón 4' )
               img.w-25.mx-auto.mb-0.multi-collapse4.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md
+            .col-md.col-3
               .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse5' aria-expanded='false' aria-controls='.multi-collapse2')  
                 img.ChangeSRC05(src='@/assets/curso/tema1-1-tema5-img1.svg', alt='botón 5' )
               img.w-25.mx-auto.mb-0.multi-collapse5.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md
+            .col-md.col-3
               .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse6' aria-expanded='false' aria-controls='.multi-collapse2')  
                 img.ChangeSRC06(src='@/assets/curso/tema1-1-tema6-img1.svg', alt='botón 6' )
               img.w-25.mx-auto.mb-0.multi-collapse6.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md
+            .col-md.col-3
               .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse7' aria-expanded='false' aria-controls='.multi-collapse2') 
                 img.ChangeSRC07(src='@/assets/curso/tema1-1-tema7-img1.svg', alt='botón 7' )
               img.w-25.mx-auto.mb-0.multi-collapse7.collapse(src='@/assets/curso/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')  

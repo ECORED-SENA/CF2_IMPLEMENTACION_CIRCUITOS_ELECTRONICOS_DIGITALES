@@ -18,7 +18,7 @@
       .col-md-10
         PasosA.color-acento-contenido(tipo="n")
           .row.align-items-center
-            .col-md-3.mb-4.mb-md-0
+            .col-md-3.col-5.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema3-paso1.jpg', alt='Proteus')
             .col-md-9
@@ -26,11 +26,11 @@
           .row.align-items-center
             .col-md-9.mb-4.mb-md-0
               p Otra herramienta potente para la simulación y desarrollo es el Altium, también de licencia propietaria de grandes prestaciones.
-            .col-md-3
+            .col-md-3.col-5
               figure
                 img(src='@/assets/curso/tema3-paso2.jpg', alt='Altium')
           .row.align-items-center
-            .col-md-3.mb-4.mb-md-0
+            .col-md-3.col-5.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema3-paso3.jpg', alt='Aplicaciones')
             .col-md-9
@@ -38,7 +38,7 @@
           .row.align-items-center
             .col-md-9.mb-4.mb-md-0
               p Algunos programas con gráficos 3D permiten visualizar el mismo circuito integrado físico, montado sobre la protoboard, tratando de representarlo, como se vería en la realidad. Estas versiones las hay incluso de uso libre y en línea, Tinkercad es una de ellas.
-            .col-md-3
+            .col-md-3.col-5
               figure
                 img(src='@/assets/curso/tema3-paso4.jpg', alt='gráficos 3D')
    

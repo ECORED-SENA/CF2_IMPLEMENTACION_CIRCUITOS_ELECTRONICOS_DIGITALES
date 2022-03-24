@@ -48,7 +48,7 @@
     .row.justify-content-center.mb-5
       .col-md-10(data-aos="fade-down")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Dgcg9kpy7bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 
@@ -205,9 +205,9 @@
       .col-md-10(data-aos="fade-down")
         SlyderE.tarjeta(indicadores="centro")
           .row.justify-content-around.bg-botones3.tarjeta.py-4
-            .col-md-5.mb-4.mb-md-0
+            .col-md-5.col-6.mb-4.mb-md-0
               img.py-3(src='@/assets/curso/tema2-3-slider1-1.svg', alt='Imagen decorativa')
-            .col-md-5
+            .col-md-5.col-6
               img.py-3(src='@/assets/curso/tema2-3-slider1-2.svg', alt='Imagen decorativa')
           .tarjeta.bg-botones3.p-4
             .row.justify-content-around.bg-slyder.tarjeta
@@ -216,37 +216,37 @@
                 img.mb-4(src='@/assets/curso/tema2-3-slider2-1.svg', alt='Formula' style="width: 100px; margin: 0 auto;") 
                 p.mb-3 El circuito según la ecuación sería este con cuatro compuertas y dos circuitos integrados:
                 img.mb-0(src='@/assets/curso/tema2-3-slider2-3.svg', alt='Formula' style="width: 210px; margin: 0 auto;")
-              .col-md-5
+              .col-md-5.col-6
                 img(src='@/assets/curso/tema2-3-slider2-2.svg', alt='Imagen decorativa')    
           .tarjeta.bg-botones3.p-4
             .row.justify-content-around.tarjeta
-              .col-md-5.mb-4.mb-md-0.py-4
+              .col-md-5.col-6.mb-4.mb-md-0.py-4
                 img.py-2(src='@/assets/curso/tema2-3-slider3-1.svg', alt='Imagen decorativa')
               .col-md-6
                 .row.align-items-center.mb-3
                   .col-md-8.text-white
                     p.mb-0 Apliquemos el primer teorema solo a los términos debajo del complemento, es decir a la suma de las variables cada una de ellas negada:
-                  .col-md-4
+                  .col-md-4.col-5
                     img.py-3(src='@/assets/curso/tema2-3-slider4-1.svg', alt='Imagen decorativa')
                 .row.align-items-center.mb-3
                   .col-md-8.text-white
                     p.mb-0 Como esta expresión estaba toda negada, se le debe colocar la negación a la obtenida:
-                  .col-md-4
+                  .col-md-4.col-5
                     img.py-3(src='@/assets/curso/tema2-3-slider4-2.svg', alt='Imagen decorativa')   
                 .row.align-items-center.mb-3
                   .col-md-8.text-white
                     p.mb-0 Si aplicamos la regla 9 entonces la ecuación final nos queda:
-                  .col-md-4
+                  .col-md-4.col-5
                     img.py-3(src='@/assets/curso/tema2-3-slider4-3.svg', alt='Imagen decorativa')     
                 .row.align-items-center.mb-3
                   .col-md-8.text-white
                     p.mb-0 Lo que nos deja con la implementación de una sola compuerta AND de tres entradas.
-                  .col-md-4
+                  .col-md-4.col-5
                     img.py-3(src='@/assets/curso/tema2-3-slider4-4.svg', alt='Imagen decorativa')    
           .row.justify-content-end.align-items-center.bg-botones3.tarjeta
             .col-md-7.mb-4.mb-md-0
               img(src='@/assets/curso/tema2-3-slider5-2.svg', alt='Imagen decorativa')
-            .col-md-4
+            .col-md-4.col-6
               img(src='@/assets/curso/tema2-3-slider5-1.svg', alt='Imagen decorativa')
 
     Separador
@@ -299,7 +299,7 @@
                   h4.mb-2 Implementación de sistemas digitales
                   p.text-small.mb-0 En el siguiente video se expone el proceso completo de aplicación, iniciando desde el álgebra de boole hasta llegar al mapa de Karnaugh.
                 .col-sm-auto
-                  a.boton.color-acento-botones.text-white(href="#" target="_blank")
+                  a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=f46DZ0WHDmk" target="_blank")
                     span Video
                     i.fas.fa-play-circle
 
