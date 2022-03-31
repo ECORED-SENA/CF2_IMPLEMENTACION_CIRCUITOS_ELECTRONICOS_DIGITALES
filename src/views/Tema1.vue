@@ -156,7 +156,7 @@
 
       .row.justify-content-center.tarjeta.bg-gris4.py-4.multi-collapse7.collapse(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4 
-          p Existen dos compuertas de aplicación especial. Una de ellas es XOR y esta es también conocida como OR Inclusiva, la cual incluye o ponen en 1 la salida cuando los valores en sus entradas son iguales; también es conocida como el comparador digital porque pone un 1 lógico en la salida cuando las entradas son iguales. A continuación su diagrama y simbología:
+          p Existen dos compuertas de aplicación especial. Una de ellas es XNOR y esta es también conocida como OR Inclusiva, la cual incluye o ponen en 1 la salida cuando los valores en sus entradas son iguales; también es conocida como el comparador digital porque pone un 1 lógico en la salida cuando las entradas son iguales. A continuación su diagrama y simbología:
         .row.justify-content-around
           .col-md-5
             h4 Símbolo y ecuación para la compuerta lógica XNOR         

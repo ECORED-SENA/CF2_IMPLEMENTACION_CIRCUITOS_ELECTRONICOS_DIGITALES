@@ -263,7 +263,7 @@
         AcordionA.tema2-4.mb-5(tipo="a" clase-tarjeta="tarjeta bg-contenido1")
           .row.justify-content-center(titulo="Mapa para dos variables")
             .col-md-11.mb-4.mb-md-0
-              p Para la construcción del mapa, se debe entender primero que todo que en la casilla del mapa va el correspondiente  valor decimal, es decir el peso de la casilla en la tabla de verdad, aunque este valor luego será reemplazado por un 1 o un 0, de acuerdo al valor real en la tabla de verdad. En otras palabras, con esto lo que se quiere indicar es que cada casilla debe ir asociada a su respectivo valor de acuerdo al código binario y según la combinación de los valores de las variables A y B. 
+              p La construcción del mapa va ligado directamente a la columna Decimal de la tabla de verdad. Cada casilla del mapa debe ir asociada a su respectivo valor (decimal) de acuerdo al código binario y según la combinación de los valores de las variables A y B. Por ejemplo, en este caso, la primera fila de la columna B es 0; la primera fila de la columna A es 0; por tanto, el valor decimal establecido, en esa primera fila, es 0. Entonces, en la primera casilla del mapa (correspondiente a dicha relación de variables) es cero.  Luego, el mismo ejercicio se realiza con las demás variables para diligenciar la matriz del mapa.
               .row.justify-content-center
                 .col-md-5
                   img(src='@/assets/curso/tema2-4-acord1-1.svg', alt='Imagen decorativa')
@@ -285,7 +285,7 @@
               p Esta secuencia corresponde al código reflejado o código Gray.
               img(src='@/assets/curso/tema2-4-acord3-2.svg', alt='Imagen decorativa')               
 
-    p.mb-4(data-aos="fade") Cada casilla lleva asociado su código binario según la tabla de verdad, es decir el 0000 decimal (0), se obtiene combinando los dos valores de sus variables A y B en el encabezado de las columnas y C y D, en el encabezado de las filas. Para el 2 por ejemplo es 0010. 
+    p.mb-4(data-aos="fade") Como se explicó en la construcción del mapa de dos variables, cada casilla del mapa, lleva asociado su código binario, según la tabla de verdad.  Frente al último ejemplo de cuatro variables, se tiene en la primera fila de la tabla 0000 decimal (0), la cual se obtiene combinando en el mapa los dos valores de sus variables A y B (en el encabezado de las columnas) y C y D (en el encabezado de las filas); para el ejemplo del decimal (2), los datos de sus variables, entonces, son 0010, y así sucesivamente.
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
