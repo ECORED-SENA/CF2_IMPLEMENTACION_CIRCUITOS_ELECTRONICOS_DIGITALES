@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-4(data-aos="fade") La aplicación de los sistemas digitales dio origen a un cambio vertiginoso en el estilo de vida de la especie humana después del desarrollo de boole en 1854 (George Boole, 02 de noviembre de 1815 a 8 de diciembre de 1864, matemático inglés). Sin embargo, este no sucedió sino hasta 1940, para que, con la invención del transistor, se pudieran implementar los primeros sistemas prácticos y funcionales. En el siguiente video se explicarán los aspectos necesarios para la implementación de los sistemas electrónicos digitales.
+    p.mb-4(data-aos="fade") La aplicación de los sistemas digitales dio origen a un cambio vertiginoso en el estilo de vida de la especie humana después del desarrollo de boole en 1854 (George Boole, 02 de noviembre de 1815 a 8 de diciembre de 1864, matemático inglés). Sin embargo, esto no sucedió sino hasta 1940, para que, con la invención del transistor, se pudieran implementar los primeros sistemas prácticos y funcionales. En el siguiente video se explicarán los aspectos necesarios para la implementación de los sistemas electrónicos digitales.
     
     .row.justify-content-center.mb-5
       .col-md-10(data-aos="fade-down")

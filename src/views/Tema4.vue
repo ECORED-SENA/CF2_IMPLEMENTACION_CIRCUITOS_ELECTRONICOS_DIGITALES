@@ -18,7 +18,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4-img.jpg')})`}")
           .bloque-texto-g__texto.p-4
-            p.mb-0 El grosor de pistas, mal trazo, capacitancias parásitas, cables muy largos son algunos de los factores que influyen en el mal funcionamiento de estos circuitos.
+            p.mb-0 El grosor de pistas, mal trazo, capacitancia parásitas, cables muy largos son algunos de los factores que influyen en el mal funcionamiento de estos circuitos.
 
     Separador
 
@@ -61,9 +61,9 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4-1-img2.jpg')})`}")
           .bloque-texto-g__texto.p-4
-            p.mb-0 Una de las herramientas con la que se debe contar para iniciar el proceso de prototipado es la protoboard, la cual permite realizar montajes previos y ser probados sin destruir elementos, antes de llegar al diseño final.
+            p.mb-0 Una de las herramientas con la que se debe contar para iniciar el proceso de prototipado es la <em>protoboard</em>, la cual permite realizar montajes previos y ser probados sin destruir elementos, antes de llegar al diseño final.
 
-    p(data-aos="fade") Para el caso de los circuitos digitales con compuertas, el prototipo se limita a la protoboard, de aquí parte directamente a la implementación en PCB.
+    p(data-aos="fade") Para el caso de los circuitos digitales con compuertas, el prototipo se limita a la <em>protoboard</em>, de aquí parte directamente a la implementación en PCB.
 
     Separador
 
@@ -156,7 +156,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4-4-img2.jpg')})`}")
           .bloque-texto-g__texto.p-4
-            p.mb-0 El <em>software</em> utilizado para programar este tipo de plataformas, es sencillo y de fácil implementación algunos de ellos son de tipo gráfico como microbit (https://microbit.org/) pensado para robótica en niños. 
+            p.mb-0 El <em>software</em> utilizado para programar este tipo de plataformas, es sencillo y de fácil implementación algunos de ellos son de tipo gráfico como micro:bit (https://microbit.org/) pensado para robótica en niños. 
     
     p.mb-5(data-aos="fade") Actualmente existen multitud de plataformas para desarrollo de circuitos, incluso implementando funcionalidades avanzadas y programación y con tutoriales de aprendizajes, integrados a ellas.
 

@@ -101,7 +101,7 @@
           .col-md-5
             h4 Símbolo para la compuerta lógica OR
             img.px-2.mb-4(src='@/assets/curso/tema1-1-tema2-form1.svg', alt='Símbolo para la compuerta lógica OR')
-            p Su <b>ecuación matemática</b> ppara implementar en el álgebra de boole sería:
+            p Su <b>ecuación matemática</b> para implementar en el álgebra de boole sería:
             p.text-center 𝑌 = 𝐴 + 𝐵
             p.mb-0 Se evidencia que para el análisis matemático tiene el comportamiento de la suma, por eso es también conocida como la suma lógica. Sin embargo, se observa que para el 1+1, que sería 2, acá el número 2 no existe por tratarse de un sistema binario donde solo se usan los símbolos 0 y 1.
           .col-md-4
@@ -229,11 +229,11 @@
               tr
                 td TTL de baja potencia 
               tr
-                td TTL shoottky
+                td TTL Schottky
               tr
-                td TTL shootttky de baja potencia 
+                td TTL Schottky de baja potencia 
               tr
-                td TTL shoottky avanzado    
+                td TTL Schottky avanzado    
               tr
                 td ECL
                 td
@@ -285,7 +285,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1-2-img2.jpg')})`}")
           .bloque-texto-g__texto.p-4
-            p.mb-0 Al utilizar toda la información que suministran los <em>datasheet</em>, se puede llegar a implementar, por ejemplo, un circuito integrado para una compuerta AND, como el de la imagen, al tratar de armarlo en una protoboard para las pruebas de funcionamiento de sus compuertas. 
+            p.mb-0 Al utilizar toda la información que suministran los <em>datasheet</em>, se puede llegar a implementar, por ejemplo, un circuito integrado para una compuerta AND, como el de la imagen, al tratar de armarlo en una <em>protoboard</em> para las pruebas de funcionamiento de sus compuertas. 
 
     p(data-aos="fade") Actualmente, es posible simular estos circuitos, al mismo tiempo que se hace la diagramación. Existe <em>software</em> en línea para estas tareas.
 
@@ -307,7 +307,7 @@
       .col-md-7.hover-tema1-3
         .row.justify-content-center.tarjeta.bg-botones3.mb-3
           .col-md-10.py-3.text-white
-            h4 Los software más comunes diseñados especialmente para simular circuitos digitales son:
+            h4 Los <em>software</em> más comunes diseñados especialmente para simular circuitos digitales son:
             ul.lista-ul.px-2.mb-0
               li.mb-0
                 i.lista-ul__vineta
@@ -335,7 +335,7 @@
                 | Crocclip            
         .row.justify-content-center.tarjeta.bg-gris6
           .col-md-10.py-3.text-white
-            h4 También existen softwares <em>online</em> de uso libre:
+            h4 También existen <em>software</em> <em>online</em> de uso libre:
             ul.lista-ul.px-2.mb-0
               li.mb-0
                 i.lista-ul__vineta
@@ -357,7 +357,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-2 Recuerda
-                  p.text-small.mb-0 Luego de revisar todo lo relacionado con los diagramas esquemáticos, y una vez finalizado el estudio de los cálculos de circuitos electrónicos digitales, se presentará una implementación del software Circuitlab, incluyendo la simulación.
+                  p.text-small.mb-0 Luego de revisar todo lo relacionado con los diagramas esquemáticos, y una vez finalizado el estudio de los cálculos de circuitos electrónicos digitales, se presentará una implementación del <em>software</em> Circuitlab, incluyendo la simulación.
 
 
 

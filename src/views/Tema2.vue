@@ -57,7 +57,7 @@
     .titulo-segundo.color-acento-contenido
       h2 2.2. Leyes
 
-    p(data-aos="fade") Las leyes aplicadas a los circuitos digitales, ayudan mucho en la resolución de problemas, algunas de estas tienen similitud con las ya conocidas en las matemáticas tradicionales, otras son exclusivas y sólo tienen aplicación en este contexto. Es necesario familiarizarse con ellas para tener éxito en el análisis de circuitos digitales.      
+    p(data-aos="fade") Las leyes aplicadas a los circuitos digitales, ayudan mucho en la resolución de problemas, algunas de estas tienen similitud con las ya conocidas en las matemáticas tradicionales, otras son exclusivas y solo tienen aplicación en este contexto. Es necesario familiarizarse con ellas para tener éxito en el análisis de circuitos digitales.      
 
     AcordionA.tema2-2.mb-5(tipo="a" clase-tarjeta="tarjeta bg-botones1")
       .row.justify-content-center(titulo="Ley conmutativa")
@@ -72,7 +72,7 @@
           p Esta ley establece que cuando se opera con más  de dos variables, el resultado es el mismo inde­pendientemente de la forma en que se agrupen las variables. Para la compuerta OR:
         .col-md-8
           img.mb-4(src='@/assets/curso/tema2-2-acord2-1.svg', alt='Ley asociativa')
-          p Sucede lo mismo para la OR:
+          p Sucede lo mismo para la AND:
           img(src='@/assets/curso/tema2-2-acord2-2.svg', alt='Ley asociativa')    
       .row.justify-content-center(titulo="Ley distributiva")
         .col-md-11.mb-4.mb-md-0
@@ -199,7 +199,7 @@
           .col-md-6.borde-azul.p-3
             img(src='@/assets/curso/tema2-3-img2.svg', alt='Ley distributiva')
 
-    p.mb-5(data-aos="fade") La aplicación principal de los teoremas de DeMorgan es la de llevar una expresión utilizando compuertas lógicas de un solo tipo. Esto es ventajoso para los circuitos puesto que solo requieren de un solo tipo de producto y para el caso de los fabricantes, permite usar la misma plantilla para el desarrollo de todos los productos; se plantea el siguiente ejemplo.
+    p.mb-5(data-aos="fade") La aplicación principal de los teoremas de De Morgan es la de llevar una expresión utilizando compuertas lógicas de un solo tipo. Esto es ventajoso para los circuitos puesto que solo requieren de un solo tipo de producto y para el caso de los fabricantes, permite usar la misma plantilla para el desarrollo de todos los productos; se plantea el siguiente ejemplo.
 
     .row.justify-content-center
       .col-md-10(data-aos="fade-down")
@@ -212,7 +212,7 @@
           .tarjeta.bg-botones3.p-4
             .row.justify-content-around.bg-slyder.tarjeta
               .col-md-5.mb-4.mb-md-0.py-4
-                p Dada la siguiente ecuación, aplicar los teoremas de DeMorgan para simplificar el circuito:
+                p Dada la siguiente ecuación, aplicar los teoremas de De Morgan para simplificar el circuito:
                 img.mb-4(src='@/assets/curso/tema2-3-slider2-1.svg', alt='Formula' style="width: 100px; margin: 0 auto;") 
                 p.mb-3 El circuito según la ecuación sería este con cuatro compuertas y dos circuitos integrados:
                 img.mb-0(src='@/assets/curso/tema2-3-slider2-3.svg', alt='Formula' style="width: 210px; margin: 0 auto;")

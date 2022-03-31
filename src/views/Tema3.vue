@@ -37,7 +37,7 @@
               p Existen muchas aplicaciones gratuitas y de funcionamiento <em>online</em>, que permiten la simulación efectiva de la mayoría de los circuitos digitales, algunas de ellas parten del diagrama esquemático y muestran sobre este los estados lógicos, es decir, en los mismos diagramas de las compuertas lógicas, se muestran los resultados.
           .row.align-items-center
             .col-md-9.mb-4.mb-md-0
-              p Algunos programas con gráficos 3D permiten visualizar el mismo circuito integrado físico, montado sobre la protoboard, tratando de representarlo, como se vería en la realidad. Estas versiones las hay incluso de uso libre y en línea, Tinkercad es una de ellas.
+              p Algunos programas con gráficos 3D permiten visualizar el mismo circuito integrado físico, montado sobre la <em>protoboard</em>, tratando de representarlo, como se vería en la realidad. Estas versiones las hay incluso de uso libre y en línea, Tinkercad es una de ellas.
             .col-md-3.col-5
               figure
                 img(src='@/assets/curso/tema3-paso4.jpg', alt='gráficos 3D')
@@ -65,7 +65,7 @@
         .row.align-items-center
           .col-md-6
             h4 Simulador con ilustraciones realistas
-            p Este tipo de <em>software</em> permite visualizar el componente como si se tratara de su presentación física. Se puede ver una protoboard o incluso la PCB; Tinkercad o Multisim son ejemplos de este tipo de <em>software</em>. 
+            p Este tipo de <em>software</em> permite visualizar el componente como si se tratara de su presentación física. Se puede ver una <em>protoboard</em> o incluso la PCB; Tinkercad o Multisim son ejemplos de este tipo de <em>software</em>. 
             p Es tipo de programas son recomendados para principiantes y para personas que quieren adquirir destreza en el manejo y la identificación de componentes.
           .col-md-6
             img(src='@/assets/curso/tema3-1-tab2.jpg', alt='Simulador con ilustraciones realistas')   
@@ -121,7 +121,7 @@
               li.mb-0 
                 i.lista-ul__vineta
                 | XOR = 7486.
-        p.mb-4 Es necesario hacer uso de los conocimientos de electrónica para interpretar el montaje en la protoboard. Una de las ventajas de los <em>software</em> de simulación con ilustraciones realistas, tal como lo presenta la imagen, es que permiten ver el montaje como sería en la realidad y luego al armarlo de forma física, la probabilidad de cometer errores en el montaje, es menor.
+        p.mb-4 Es necesario hacer uso de los conocimientos de electrónica para interpretar el montaje en la <em>protoboard</em>. Una de las ventajas de los <em>software</em> de simulación con ilustraciones realistas, tal como lo presenta la imagen, es que permiten ver el montaje como sería en la realidad y luego al armarlo de forma física, la probabilidad de cometer errores en el montaje, es menor.
         .row.justify-content-center
           .col-md-9
             img(src='@/assets/curso/tema3-1-imginfog2.jpg', alt='Simulador esquemático')
@@ -135,7 +135,7 @@
 
     p(data-aos="fade") Los archivos de trabajo en la implementación de circuitos electrónicos digitales está limitada a la importación de las imágenes y los listados de componentes. Para el desarrollo y el prototipado es probable que se necesiten generar archivos de fresado, serigrafía y otros.
 
-    p(data-aos="fade") Para el caso de Tinkercad, por ejemplo, es solo dar clic sobre el ícono de listado, se pone en modo lista y luego se importa el archivo en dicho formato, tal como se presenta a continuaciónn.
+    p(data-aos="fade") Para el caso de Tinkercad, por ejemplo, es solo dar clic sobre el ícono de listado, se pone en modo lista y luego se importa el archivo en dicho formato, tal como se presenta a continuación:
 
     .row.justify-content-center.mb-5
       .col-md-10
